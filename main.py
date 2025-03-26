@@ -25,6 +25,9 @@ def main():
             
             print("\n----- Final Research Report -----")
             print(research_result['final_report'])
+            
+            # Save performance log after every research topic
+            performance_logger.save_performance_log()
     
     except KeyboardInterrupt:
         print("\nOperation cancelled.")
@@ -32,6 +35,7 @@ def main():
         logging.error(f"Unexpected error: {e}")
         print(f"An error occurred: {e}")
     finally:
+        # Final log save when exiting
         performance_logger.save_performance_log()
 
 if __name__ == "__main__":

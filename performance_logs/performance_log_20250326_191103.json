@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "timestamp": "2025-03-26T19:11:47.708709",
+    "total_api_calls": 5,
+    "total_tokens_used": 3455,
+    "avg_call_time": 6.4414,
+    "min_call_time": 5.2164,
+    "max_call_time": 8.8322
+  },
+  "detailed_calls": [
+    {
+      "timestamp": "2025-03-26T19:11:21.999046",
+      "query": "Generate a comprehensive overview of hello friend how are you? what is the kind of research topic",
+      "input_tokens": 27,
+      "output_tokens": 615,
+      "total_tokens": 642,
+      "duration_seconds": 6.5054,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:11:27.639979",
+      "query": "List key subtopics and important aspects of hello friend how are you? what is the kind of research topic",
+      "input_tokens": 29,
+      "output_tokens": 549,
+      "total_tokens": 578,
+      "duration_seconds": 5.6389,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:11:32.857438",
+      "query": "Provide historical context for hello friend how are you? what is the kind of research topic",
+      "input_tokens": 26,
+      "output_tokens": 525,
+      "total_tokens": 551,
+      "duration_seconds": 5.2164,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:11:38.872646",
+      "query": "Discuss current trends and future implications of hello friend how are you? what is the kind of research topic",
+      "input_tokens": 29,
+      "output_tokens": 628,
+      "total_tokens": 657,
+      "duration_seconds": 6.0142,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:11:47.704883",
+      "query": "Synthesize a comprehensive research report on hello friend how are you? what is the kind of research topic using these key sections: [\"Generate a comprehensive overview of hello friend how are you? wh",
+      "input_tokens": 103,
+      "output_tokens": 924,
+      "total_tokens": 1027,
+      "duration_seconds": 8.8322,
+      "success": true,
+      "error": null
+    }
+  ]
+}
