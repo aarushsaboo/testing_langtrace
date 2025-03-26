@@ -1,0 +1,162 @@
+{
+  "summary": {
+    "timestamp": "2025-03-26T19:08:11.763582",
+    "total_api_calls": 15,
+    "total_tokens_used": 9864,
+    "avg_call_time": 5.956,
+    "min_call_time": 4.781,
+    "max_call_time": 7.747
+  },
+  "detailed_calls": [
+    {
+      "timestamp": "2025-03-26T19:03:15.855891",
+      "query": "Generate a comprehensive overview of why are humans stupid",
+      "input_tokens": 19,
+      "output_tokens": 561,
+      "total_tokens": 580,
+      "duration_seconds": 5.7073,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:03:21.811956",
+      "query": "List key subtopics and important aspects of why are humans stupid",
+      "input_tokens": 21,
+      "output_tokens": 582,
+      "total_tokens": 603,
+      "duration_seconds": 5.9551,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:03:27.232280",
+      "query": "Provide historical context for why are humans stupid",
+      "input_tokens": 18,
+      "output_tokens": 547,
+      "total_tokens": 565,
+      "duration_seconds": 5.4183,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:03:33.342309",
+      "query": "Discuss current trends and future implications of why are humans stupid",
+      "input_tokens": 21,
+      "output_tokens": 650,
+      "total_tokens": 671,
+      "duration_seconds": 6.11,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:03:40.179274",
+      "query": "Synthesize a comprehensive research report on why are humans stupid using these key sections: [\"Generate a comprehensive overview of why are humans stupid\", \"List key subtopics and important aspects o",
+      "input_tokens": 63,
+      "output_tokens": 749,
+      "total_tokens": 812,
+      "duration_seconds": 6.835,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:04:40.023905",
+      "query": "Generate a comprehensive overview of why are humans white or black",
+      "input_tokens": 21,
+      "output_tokens": 556,
+      "total_tokens": 577,
+      "duration_seconds": 5.4262,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:04:45.664120",
+      "query": "List key subtopics and important aspects of why are humans white or black",
+      "input_tokens": 23,
+      "output_tokens": 569,
+      "total_tokens": 592,
+      "duration_seconds": 5.6402,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:04:50.446158",
+      "query": "Provide historical context for why are humans white or black",
+      "input_tokens": 20,
+      "output_tokens": 510,
+      "total_tokens": 530,
+      "duration_seconds": 4.781,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:04:55.921108",
+      "query": "Discuss current trends and future implications of why are humans white or black",
+      "input_tokens": 23,
+      "output_tokens": 569,
+      "total_tokens": 592,
+      "duration_seconds": 5.4739,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:05:03.670086",
+      "query": "Synthesize a comprehensive research report on why are humans white or black using these key sections: [\"Generate a comprehensive overview of why are humans white or black\", \"List key subtopics and imp",
+      "input_tokens": 73,
+      "output_tokens": 865,
+      "total_tokens": 938,
+      "duration_seconds": 7.747,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:05:43.460890",
+      "query": "Generate a comprehensive overview of why are humans white or black",
+      "input_tokens": 21,
+      "output_tokens": 605,
+      "total_tokens": 626,
+      "duration_seconds": 5.6722,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:05:49.384446",
+      "query": "List key subtopics and important aspects of why are humans white or black",
+      "input_tokens": 23,
+      "output_tokens": 580,
+      "total_tokens": 603,
+      "duration_seconds": 5.9206,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:05:54.508065",
+      "query": "Provide historical context for why are humans white or black",
+      "input_tokens": 20,
+      "output_tokens": 562,
+      "total_tokens": 582,
+      "duration_seconds": 5.1236,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:06:00.311018",
+      "query": "Discuss current trends and future implications of why are humans white or black",
+      "input_tokens": 23,
+      "output_tokens": 634,
+      "total_tokens": 657,
+      "duration_seconds": 5.802,
+      "success": true,
+      "error": null
+    },
+    {
+      "timestamp": "2025-03-26T19:06:08.040404",
+      "query": "Synthesize a comprehensive research report on why are humans white or black using these key sections: [\"Generate a comprehensive overview of why are humans white or black\", \"List key subtopics and imp",
+      "input_tokens": 73,
+      "output_tokens": 863,
+      "total_tokens": 936,
+      "duration_seconds": 7.7271,
+      "success": true,
+      "error": null
+    }
+  ]
+}

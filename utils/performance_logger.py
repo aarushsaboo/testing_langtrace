@@ -15,6 +15,9 @@ class PerformanceLogger:
         self.total_tokens_used = 0
         self.api_call_times = []
         self.detailed_tracking = []
+        
+        # Additional logging for tracking
+        self.logger = logging.getLogger(__name__)
     
     def log_api_call(self, query, input_tokens, output_tokens, duration, success=True, error=None):
         call_record = {
@@ -33,13 +36,21 @@ class PerformanceLogger:
         self.total_tokens_used += (input_tokens + output_tokens)
         self.api_call_times.append(duration)
         
+        # Detailed logging
+        self.logger.debug(f"API Call Details: {json.dumps(call_record, indent=2)}")
+        
+        # Info level log for quick overview
         log_message = (
             f"API Call: {query[:50]}... | "
             f"Tokens: {input_tokens}/{output_tokens} | "
             f"Duration: {duration:.4f}s | "
             f"Success: {success}"
         )
-        logging.info(log_message)
+        self.logger.info(log_message)
+        
+        # Error logging if call failed
+        if not success and error:
+            self.logger.error(f"API Call Failed: {error}")
     
     def save_performance_log(self):
         performance_summary = {
@@ -52,6 +63,9 @@ class PerformanceLogger:
         }
         
         try:
+            # Log performance summary
+            self.logger.info(f"Performance Summary: {json.dumps(performance_summary, indent=2)}")
+            
             with open(self.performance_txt_log, 'w') as f:
                 f.write("=== Performance Summary ===\n")
                 for key, value in performance_summary.items():
@@ -67,11 +81,11 @@ class PerformanceLogger:
                     'detailed_calls': self.detailed_tracking
                 }, f, indent=2)
             
-            print(f"Performance logs saved:")
-            print(f"- Text log: {self.performance_txt_log}")
-            print(f"- JSON log: {self.performance_json_log}")
+            self.logger.info(f"Performance logs saved:")
+            self.logger.info(f"- Text log: {self.performance_txt_log}")
+            self.logger.info(f"- JSON log: {self.performance_json_log}")
             
             return self.performance_txt_log
         except Exception as e:
-            print(f"Error saving log files: {e}")
+            self.logger.error(f"Error saving log files: {e}")
             return None

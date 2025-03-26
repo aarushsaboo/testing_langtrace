@@ -1,5 +1,145 @@
-2025-03-26 18:57:51,791 - INFO: API Call: Generate a comprehensive overview of how is food m... | Tokens: 19/741 | Duration: 7.3867s | Success: True
-2025-03-26 18:57:58,006 - INFO: API Call: List key subtopics and important aspects of how is... | Tokens: 21/595 | Duration: 6.2124s | Success: True
-2025-03-26 18:58:04,345 - INFO: API Call: Provide historical context for how is food made... | Tokens: 18/630 | Duration: 6.3373s | Success: True
-2025-03-26 18:58:11,295 - INFO: API Call: Discuss current trends and future implications of ... | Tokens: 21/721 | Duration: 6.9491s | Success: True
-2025-03-26 18:58:19,433 - INFO: API Call: Synthesize a comprehensive research report on how ... | Tokens: 63/811 | Duration: 8.1343s | Success: True
+2025-03-26 19:04:34,596 - INFO - ai_assistant - research_workflow - Starting research workflow for topic: why are humans white or black
+2025-03-26 19:04:34,596 - DEBUG - ai_assistant - generate_response - Generating response for query: Generate a comprehensive overview of why are humans white or black
+2025-03-26 19:04:40,022 - DEBUG - ai_assistant - generate_response - Response generated successfully. Output length: 3892 characters
+2025-03-26 19:04:40,023 - DEBUG - performance_logger - log_api_call - API Call Details: {
+  "timestamp": "2025-03-26T19:04:40.023905",
+  "query": "Generate a comprehensive overview of why are humans white or black",
+  "input_tokens": 21,
+  "output_tokens": 556,
+  "total_tokens": 577,
+  "duration_seconds": 5.4262,
+  "success": true,
+  "error": null
+}
+2025-03-26 19:04:40,023 - INFO - performance_logger - log_api_call - API Call: Generate a comprehensive overview of why are human... | Tokens: 21/556 | Duration: 5.4262s | Success: True
+2025-03-26 19:04:40,023 - DEBUG - ai_assistant - generate_response - Generating response for query: List key subtopics and important aspects of why are humans white or black
+2025-03-26 19:04:45,664 - DEBUG - ai_assistant - generate_response - Response generated successfully. Output length: 3990 characters
+2025-03-26 19:04:45,664 - DEBUG - performance_logger - log_api_call - API Call Details: {
+  "timestamp": "2025-03-26T19:04:45.664120",
+  "query": "List key subtopics and important aspects of why are humans white or black",
+  "input_tokens": 23,
+  "output_tokens": 569,
+  "total_tokens": 592,
+  "duration_seconds": 5.6402,
+  "success": true,
+  "error": null
+}
+2025-03-26 19:04:45,665 - INFO - performance_logger - log_api_call - API Call: List key subtopics and important aspects of why ar... | Tokens: 23/569 | Duration: 5.6402s | Success: True
+2025-03-26 19:04:45,665 - DEBUG - ai_assistant - generate_response - Generating response for query: Provide historical context for why are humans white or black
+2025-03-26 19:04:50,446 - DEBUG - ai_assistant - generate_response - Response generated successfully. Output length: 3544 characters
+2025-03-26 19:04:50,447 - DEBUG - performance_logger - log_api_call - API Call Details: {
+  "timestamp": "2025-03-26T19:04:50.446158",
+  "query": "Provide historical context for why are humans white or black",
+  "input_tokens": 20,
+  "output_tokens": 510,
+  "total_tokens": 530,
+  "duration_seconds": 4.781,
+  "success": true,
+  "error": null
+}
+2025-03-26 19:04:50,447 - INFO - performance_logger - log_api_call - API Call: Provide historical context for why are humans whit... | Tokens: 20/510 | Duration: 4.7810s | Success: True
+2025-03-26 19:04:50,447 - DEBUG - ai_assistant - generate_response - Generating response for query: Discuss current trends and future implications of why are humans white or black
+2025-03-26 19:04:55,921 - DEBUG - ai_assistant - generate_response - Response generated successfully. Output length: 4184 characters
+2025-03-26 19:04:55,922 - DEBUG - performance_logger - log_api_call - API Call Details: {
+  "timestamp": "2025-03-26T19:04:55.921108",
+  "query": "Discuss current trends and future implications of why are humans white or black",
+  "input_tokens": 23,
+  "output_tokens": 569,
+  "total_tokens": 592,
+  "duration_seconds": 5.4739,
+  "success": true,
+  "error": null
+}
+2025-03-26 19:04:55,922 - INFO - performance_logger - log_api_call - API Call: Discuss current trends and future implications of ... | Tokens: 23/569 | Duration: 5.4739s | Success: True
+2025-03-26 19:04:55,923 - DEBUG - ai_assistant - generate_response - Generating response for query: Synthesize a comprehensive research report on why are humans white or black using these key sections: ["Generate a comprehensive overview of why are humans white or black", "List key subtopics and important aspects of why are humans white or black", "Provide historical context for why are humans white or black", "Discuss current trends and future implications of why are humans white or black"]
+2025-03-26 19:05:03,670 - DEBUG - ai_assistant - generate_response - Response generated successfully. Output length: 5927 characters
+2025-03-26 19:05:03,670 - DEBUG - performance_logger - log_api_call - API Call Details: {
+  "timestamp": "2025-03-26T19:05:03.670086",
+  "query": "Synthesize a comprehensive research report on why are humans white or black using these key sections: [\"Generate a comprehensive overview of why are humans white or black\", \"List key subtopics and imp",
+  "input_tokens": 73,
+  "output_tokens": 865,
+  "total_tokens": 938,
+  "duration_seconds": 7.747,
+  "success": true,
+  "error": null
+}
+2025-03-26 19:05:03,670 - INFO - performance_logger - log_api_call - API Call: Synthesize a comprehensive research report on why ... | Tokens: 73/865 | Duration: 7.7470s | Success: True
+2025-03-26 19:05:03,671 - INFO - ai_assistant - research_workflow - Research workflow completed for topic: why are humans white or black
+2025-03-26 19:05:37,788 - INFO - ai_assistant - research_workflow - Starting research workflow for topic: why are humans white or black
+2025-03-26 19:05:37,788 - DEBUG - ai_assistant - generate_response - Generating response for query: Generate a comprehensive overview of why are humans white or black
+2025-03-26 19:05:43,460 - DEBUG - ai_assistant - generate_response - Response generated successfully. Output length: 4151 characters
+2025-03-26 19:05:43,460 - DEBUG - performance_logger - log_api_call - API Call Details: {
+  "timestamp": "2025-03-26T19:05:43.460890",
+  "query": "Generate a comprehensive overview of why are humans white or black",
+  "input_tokens": 21,
+  "output_tokens": 605,
+  "total_tokens": 626,
+  "duration_seconds": 5.6722,
+  "success": true,
+  "error": null
+}
+2025-03-26 19:05:43,461 - INFO - performance_logger - log_api_call - API Call: Generate a comprehensive overview of why are human... | Tokens: 21/605 | Duration: 5.6722s | Success: True
+2025-03-26 19:05:43,461 - DEBUG - ai_assistant - generate_response - Generating response for query: List key subtopics and important aspects of why are humans white or black
+2025-03-26 19:05:49,383 - DEBUG - ai_assistant - generate_response - Response generated successfully. Output length: 3921 characters
+2025-03-26 19:05:49,384 - DEBUG - performance_logger - log_api_call - API Call Details: {
+  "timestamp": "2025-03-26T19:05:49.384446",
+  "query": "List key subtopics and important aspects of why are humans white or black",
+  "input_tokens": 23,
+  "output_tokens": 580,
+  "total_tokens": 603,
+  "duration_seconds": 5.9206,
+  "success": true,
+  "error": null
+}
+2025-03-26 19:05:49,384 - INFO - performance_logger - log_api_call - API Call: List key subtopics and important aspects of why ar... | Tokens: 23/580 | Duration: 5.9206s | Success: True
+2025-03-26 19:05:49,384 - DEBUG - ai_assistant - generate_response - Generating response for query: Provide historical context for why are humans white or black
+2025-03-26 19:05:54,508 - DEBUG - ai_assistant - generate_response - Response generated successfully. Output length: 3910 characters
+2025-03-26 19:05:54,508 - DEBUG - performance_logger - log_api_call - API Call Details: {
+  "timestamp": "2025-03-26T19:05:54.508065",
+  "query": "Provide historical context for why are humans white or black",
+  "input_tokens": 20,
+  "output_tokens": 562,
+  "total_tokens": 582,
+  "duration_seconds": 5.1236,
+  "success": true,
+  "error": null
+}
+2025-03-26 19:05:54,508 - INFO - performance_logger - log_api_call - API Call: Provide historical context for why are humans whit... | Tokens: 20/562 | Duration: 5.1236s | Success: True
+2025-03-26 19:05:54,509 - DEBUG - ai_assistant - generate_response - Generating response for query: Discuss current trends and future implications of why are humans white or black
+2025-03-26 19:06:00,311 - DEBUG - ai_assistant - generate_response - Response generated successfully. Output length: 4421 characters
+2025-03-26 19:06:00,311 - DEBUG - performance_logger - log_api_call - API Call Details: {
+  "timestamp": "2025-03-26T19:06:00.311018",
+  "query": "Discuss current trends and future implications of why are humans white or black",
+  "input_tokens": 23,
+  "output_tokens": 634,
+  "total_tokens": 657,
+  "duration_seconds": 5.802,
+  "success": true,
+  "error": null
+}
+2025-03-26 19:06:00,312 - INFO - performance_logger - log_api_call - API Call: Discuss current trends and future implications of ... | Tokens: 23/634 | Duration: 5.8020s | Success: True
+2025-03-26 19:06:00,312 - DEBUG - ai_assistant - generate_response - Generating response for query: Synthesize a comprehensive research report on why are humans white or black using these key sections: ["Generate a comprehensive overview of why are humans white or black", "List key subtopics and important aspects of why are humans white or black", "Provide historical context for why are humans white or black", "Discuss current trends and future implications of why are humans white or black"]
+2025-03-26 19:06:08,040 - DEBUG - ai_assistant - generate_response - Response generated successfully. Output length: 5968 characters
+2025-03-26 19:06:08,040 - DEBUG - performance_logger - log_api_call - API Call Details: {
+  "timestamp": "2025-03-26T19:06:08.040404",
+  "query": "Synthesize a comprehensive research report on why are humans white or black using these key sections: [\"Generate a comprehensive overview of why are humans white or black\", \"List key subtopics and imp",
+  "input_tokens": 73,
+  "output_tokens": 863,
+  "total_tokens": 936,
+  "duration_seconds": 7.7271,
+  "success": true,
+  "error": null
+}
+2025-03-26 19:06:08,040 - INFO - performance_logger - log_api_call - API Call: Synthesize a comprehensive research report on why ... | Tokens: 73/863 | Duration: 7.7271s | Success: True
+2025-03-26 19:06:08,041 - INFO - ai_assistant - research_workflow - Research workflow completed for topic: why are humans white or black
+2025-03-26 19:08:11,764 - INFO - performance_logger - save_performance_log - Performance Summary: {
+  "timestamp": "2025-03-26T19:08:11.763582",
+  "total_api_calls": 15,
+  "total_tokens_used": 9864,
+  "avg_call_time": 5.956,
+  "min_call_time": 4.781,
+  "max_call_time": 7.747
+}
+2025-03-26 19:08:11,766 - INFO - performance_logger - save_performance_log - Performance logs saved:
+2025-03-26 19:08:11,767 - INFO - performance_logger - save_performance_log - - Text log: performance_logs\performance_log_20250326_190304.txt
+2025-03-26 19:08:11,767 - INFO - performance_logger - save_performance_log - - JSON log: performance_logs\performance_log_20250326_190304.json
